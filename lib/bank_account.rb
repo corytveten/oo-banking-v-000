@@ -8,5 +8,12 @@ class BankAccount
     @status = "open"
   end
 
+  def deposit
+    
+  end
+
+  def balance
+    puts "Your balance is #{@balance}."
+  end
 
 end
